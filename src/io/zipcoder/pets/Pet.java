@@ -4,9 +4,15 @@ public class Pet {
 
     private String name;
 
-    public Pet(String name){
+    public Pet(String name) {
         this.name = name;
     }
+
+    public Pet(){
+        this.name = "Pet";
+    }
+
+
 
     public void setName(String name) {
         this.name = name;
@@ -16,7 +22,7 @@ public class Pet {
         return name;
     }
 
-    public void speak(){
-        System.out.println("Holy shit I can talk!!");
+    public String speak(){
+        return "Holy shit I can talk!!";
     }
 }

@@ -1,14 +1,18 @@
 package io.zipcoder.pets;
 
-public class Dog extends Pet{
+
+public class Dog extends Pet {
 
     public Dog(String name) {
         super(name);
     }
 
+    public Dog() {
+    }
+
     @Override
-    public void speak(){
-        System.out.println("Rufffffles have ridges!");
+    public String speak(){
+        return "bark!";
     }
 
 }

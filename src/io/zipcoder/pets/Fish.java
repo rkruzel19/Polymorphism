@@ -6,8 +6,13 @@ public class Fish extends Pet{
         super(name);
     }
 
-    @Override
-    public void speak(){
-        System.out.println("Rawrrrrr!");
+    public Fish() {
+
     }
+
+    @Override
+    public String speak(){
+        return "stares blankly...";
+    }
+
 }

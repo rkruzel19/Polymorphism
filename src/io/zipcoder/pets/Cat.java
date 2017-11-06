@@ -6,8 +6,12 @@ public class Cat extends Pet{
         super(name);
     }
 
+    public Cat() {
+    }
+
     @Override
-    public void speak(){
-        System.out.println("Rawrrrrr!");
+    public String speak(){
+        return "meow!";
+
     }
 }
