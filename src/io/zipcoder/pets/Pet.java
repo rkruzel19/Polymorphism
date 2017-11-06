@@ -17,6 +17,6 @@ public class Pet {
     }
 
     public void speak(){
-        System.out.println("Wordddds");
+        System.out.println("Holy shit I can talk!!");
     }
 }
