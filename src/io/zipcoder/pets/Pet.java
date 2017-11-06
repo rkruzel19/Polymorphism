@@ -4,7 +4,7 @@ public class Pet {
 
     private String name;
 
-    Pet(String name){
+    public Pet(String name){
         this.name = name;
     }
 
