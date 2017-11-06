@@ -1,4 +1,4 @@
 package io.zipcoder.pets;
 
-public class Fish {
+public class Fish extends Pet {
 }
