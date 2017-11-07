@@ -1,6 +1,6 @@
 package io.zipcoder.pets;
 
-public class Fish extends Pet{
+public class Fish extends Pet {
 
     public Fish(String name) {
         super(name);
@@ -14,5 +14,6 @@ public class Fish extends Pet{
     public String speak(){
         return "stares blankly...";
     }
+
 
 }

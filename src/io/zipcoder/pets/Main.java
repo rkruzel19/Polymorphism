@@ -1,6 +1,8 @@
 package io.zipcoder.pets;
 
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.Scanner;
 
 public class Main {
@@ -46,6 +48,13 @@ public class Main {
         }
 
         System.out.println(output);
+        for (int i = 0; i < pets.size(); i++) {
+            System.out.println(pets.get(i).getName() + ": " + pets.get(i).speak());
+        }
+
+        System.out.println();
+        Collections.sort(pets, new Pet());
+
         for (int i = 0; i < pets.size(); i++) {
             System.out.println(pets.get(i).getName() + ": " + pets.get(i).speak());
         }
